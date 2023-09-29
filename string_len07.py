@@ -8,4 +8,8 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    if (len(s1)+len(s2)+len(s3))%2==1 :
+        return "[s1,s2]"
+    else :
+        return "[]"
+print(main("Nurbek","Doniyor","Ozodbek"))

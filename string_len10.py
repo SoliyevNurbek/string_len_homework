@@ -8,4 +8,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    x=str(s[0])==str(s[2])
+    return x
+print(main("Nur"))
